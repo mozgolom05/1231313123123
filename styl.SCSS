@@ -1,0 +1,369 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.navbar {
+    background-color: #123d34;
+}
+
+.navbar-collapse a {
+    padding: 10px;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.main-text {
+    color: white;
+    padding-bottom: 100px;
+}
+
+.main-text h1 {
+    font-weight: 700;
+    font-size: 62px;
+}
+
+.main-text h2 {
+    font-weight: 300;
+    font-size: 48px;
+}
+
+.main-text span {
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.slide-icon {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    background-color: #0eb493 ;
+}
+
+.carousel-indicators [data-bs-target] {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border: 3px solid white;
+    border-radius: 50%;
+    background: transparent;
+    opacity: 1;
+}
+
+.carousel-indicators [data-bs-target]:hover {
+    background-color: white;
+    transform: scale(1.2);
+    transition: 300ms;
+}
+
+.carousel-indicators .active {
+    background: white;
+}
+
+.title {
+    display: inline-block;
+    overflow: hidden;
+    text-align: center;
+}
+.title span {
+    display: inline-block;
+    vertical-align: middle;
+}
+.title:before,
+.title:after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 2px;
+    background-color: #0eb493;
+    position: relative;
+}
+.title:before {
+    margin-left: -100%;
+    left: -14px;
+}
+.title:after {
+    margin-right: -100%;
+    right: -14px;
+}
+
+
+.bg-grey {
+    background-color: #f4f7f9;
+}
+
+.card {
+    background-color: transparent;
+}
+
+.middle h3 {
+    padding: 0px;
+    font-size: 28px;
+    font-weight: 800;
+    color: #0eb493;
+}
+
+.card-text1 {
+    font-weight: 400;
+    line-height: 21px;
+    color: #717982;
+    font-size: 13px;
+}
+
+.title-heart:before,
+.title-heart:after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 100px;
+    height: 1px;
+    background-color: gray;
+    position: relative;
+}
+span.heart {
+    color: gray;
+}
+
+.cardmid1_1 a {
+    text-decoration: none;
+    margin-left: 25px;
+    color: #062033;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.cardmid1_1 a::before {
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: 2px solid #0eb493;
+    border-radius: 50%;
+    background-image: url(ic-leaf.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: absolute;
+    text-decoration: none;
+    padding: 0;
+    left: 0;
+}
+
+
+
+.cardmid1_2 a {
+    text-decoration: none;
+    margin-left: 25px;
+    color: #062033;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.cardmid1_2 a::before {
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: 2px solid #0eb493;
+    border-radius: 50%;
+    background-image: url(ic-penсil.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: absolute;
+    text-decoration: none;
+    padding: 0;
+    left: 0;
+}
+
+
+.cardmid1_3 a {
+    text-decoration: none;
+    margin-left: 25px;
+    color: #062033;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.cardmid1_3 a::before {
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: 2px solid #0eb493;
+    border-radius: 50%;
+    background-image: url(ic-speack.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: absolute;
+    text-decoration: none;
+    padding: 0;
+    left: 0;
+}
+
+.card-text1 {
+    margin-left: 25px;
+}
+
+.middle2-maintext h3 {
+    font-size: 28px;
+    font-weight: 800;
+    color: #0eb493;
+}
+
+.middle2-maintext p {
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #5b646e;
+}
+
+.mid2text {
+    background-color: #f4f7f9;
+} 
+
+.mid2text h5 {
+    padding-top: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #0c9a7e;
+}
+
+.mid2text p {
+    font-size: 16px;
+    color: #062033;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.card-footer a {
+    padding: 7px 16px 7px 16px;
+    background-color: #0eb493;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+}
+
+.city {
+    background-image: url(pic.jpg);
+    min-height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.city-maintext {
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+.city-maintext h3 {
+    font-size: 28px;
+    font-weight: 800;
+    color: #0eb493;
+}
+
+
+.card-city h5{
+    margin: 0px;
+    padding: 0px;
+    font-size: 60px;
+    font-weight: 600;
+    color: white;
+}
+
+.card-city p {
+    padding: 0px;
+    font-size: 18px;
+    color: white;
+    font-weight: 400;
+}
+
+.card-clock::before {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 100px;
+    border: 1px solid white;
+    border-radius: 50%;
+    background-image: url(ic-clock.png);
+    background-position: center center;
+    margin-right: auto;
+    margin-left: auto;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    padding: 0;
+    left: 0;
+}
+
+.card-user::before {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 100px;
+    border: 1px solid white;
+    border-radius: 50%;
+    background-image: url(ic-users.png);
+    background-position: center center;
+    margin-right: auto;
+    margin-left: auto;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    padding: 0;
+    left: 0;
+}
+
+.card-rocket::before {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 100px;
+    border: 1px solid white;
+    border-radius: 50%;
+    background-image: url(ic-rocket.png);
+    background-position: center center;
+    margin-right: auto;
+    margin-left: auto;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    padding: 0;
+    left: 0;
+}
+
+.card-cup::before {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 100px;
+    border: 1px solid white;
+    border-radius: 50%;
+    background-image: url(ic-cup.png);
+    background-position: center center;
+    margin-right: auto;
+    margin-left: auto;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    padding: 0;
+    left: 0;
+}
+
+
+footer {
+    background-color: #37bda1;
+}
+
+.footer-container {
+    background-image: url(logo.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.footer-container p {
+    font-size: 13px;
+    color: white;
+    font-weight: 400;
+    text-align: end;
+}
